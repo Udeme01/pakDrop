@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "parkdropui",
+    "slug": "parkdropui",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Images/parkdrop.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/Images/parkdrop.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/Images/parkdrop.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/Images/parkdrop.png"
+    },
+    "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "../../../assets/fonts/montserrat/Montserrat-SemiBold.ttf",
+            "../../../assets/fonts/montserrat/Montserrat-Regular.ttf"
+          ]
+        }
+      ]
+    ]
+  }
+}
